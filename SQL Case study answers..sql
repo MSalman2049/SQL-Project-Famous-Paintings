@@ -139,5 +139,4 @@ select m.name as 'Museum Name', m.state, HO.hours_open, HO.day
 from hours_open_cte HO
 join museum m on HO.museum_id=m.museum_id;
 
-# Which museum has the most no of most popular painting style?
 
